@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #005677;
+    letter-spacing: 9px;
+    word-spacing: 10px;
+    size: 10px;
+    padding-left: 20px;
+    background-color: #C4C4C4;
+}
+
+.contenedor-img{
+    width: 1440px;
+    height: 188.19px;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+.img-batman{
+    position: relative;
+    width: 100px;
+    height: 146.37px;
+    top: 20px;
+    left: 600px;
+}
+
+.titulo{
+    background-color: #C4C4C4;
+    width: 1440px;
+    height: 60px;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 9.5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-transform: uppercase;
+    size: 35px;
+    color: #005677;
+    letter-spacing: 9px;
+    word-spacing: 10px;
+    
+}
+
+.datos-personales{
+    margin-top: 100px;
+}
+
+.datos-personales h2{
+    
+}

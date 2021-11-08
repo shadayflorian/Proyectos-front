@@ -1,0 +1,188 @@
+
+body{
+    font-family: 'Krub', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+/*Encabezado*/
+.info-name{
+    background-image: url(https://img.freepik.com/foto-gratis/tonos-morados-oscuros_23-2147734216.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    background-position-y: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.info-name p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    color: #fffefe;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+    margin: 0;
+
+}
+
+img{
+    width: 200px;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 580px;
+    top: 200px;
+    
+}
+
+/*Navegacion*/
+
+.nav{
+    background-color: rgb(188, 216, 216);
+    height: 40px;
+    color: rgb(112, 46, 138);
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: block;
+    margin: 0;
+    padding-top: 15px;
+}
+
+/* Cuadro de informacion personal*/
+
+.informacion{
+    position: relative;
+    top:140px;
+    margin-left: 250px;
+    margin-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: rgb(112, 59, 128) 1px solid;
+    
+}
+
+/*Experiencia Laboral*/
+
+h2{
+    text-align: center;
+    padding-top: 200px;
+    color: rgb(81, 20, 139);
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.secciones{
+    width: 400px;
+    height: 290px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.entidad{
+    background-color: rgb(188, 216, 216);
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.experiencia{
+    background-color: rgb(217, 219, 219);
+    margin: 0;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*Apartado de Habilidades*/
+
+.skills h2{
+    padding-top: 0;
+}
+
+.skills ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.herramientas{
+    margin-top: 50px;
+    height: 120px;
+    width: 300px;
+    background-color: rgb(228, 228, 236);
+    font-weight: bold;
+}
+
+.herramientas p{
+    background-color: rgb(188, 216, 216);
+    text-align: center;
+   border-radius: 50px;
+}
+
+.herramientas svg{
+    position: relative;
+    left: 125px;
+}
+
+.hability{
+    position: relative;
+    left: 250px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.presentacion{
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.texto-presentacion h1{
+    padding-top: 130px;
+    color: rgb(81, 20, 139);
+    font-size: 40px;
+    padding-left: 70px;
+}
+
+.texto-presentacion p{
+   padding-left: 70px;
+}
+
+.imagen-presentacion{
+    border-radius: 1px;
+    height: 60%;
+    width: 60%;
+    position: relative;
+    left: 1px;
+    top: 30px;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* Footer*/
+
+footer{
+    background-color: rgb(81, 20, 139);
+    height: 30px;
+    color: white;
+}
