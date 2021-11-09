@@ -111,4 +111,9 @@ footer{
     color: white;
     position: relative;
     top: 500px;
+    height: 51px;
+}
+
+footer p{
+    padding: 16px;
 }
