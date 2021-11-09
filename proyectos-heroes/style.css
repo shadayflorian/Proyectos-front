@@ -1,0 +1,114 @@
+:root{
+    --colorprincipal: #00669F;
+    --colorsecundario: #1CD1B0;
+    --colortitulo: #000000;
+    --colorparrafos: #333333;
+    --color-fondo-tarjetas: #F3F3F3;
+}
+
+body{
+    font-family:  'Roboto', sans-serif;
+}
+
+header{
+    background-color: var(--colorsecundario);
+    height: 38px;
+}
+
+.text-header p{
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.barra-principal h1{
+    background-color: var(--colorprincipal);
+    margin: 0;
+    height: 101px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.batman{
+    height: 193px;
+    margin-left: 50px;
+}
+
+.corazon{
+  position: relative;
+  top: 170px;
+  left: 10px;
+  z-index: 7;
+}
+
+.fondo{
+    width: 300px;
+    height: 193px;
+    position: absolute;
+    top: 200px;
+    z-index: 10px;
+}
+
+
+.foto-perfil{
+    position: absolute;
+    top: 340px;
+    left: 200px;
+}
+
+.foto-perfil img{
+    border-radius: 50%;
+}
+
+.texto-presentacion{
+    position: relative;
+    top: 370px;
+    width: 300px;
+    height: 113px;
+    box-sizing: border-box;
+}
+
+.texto-presentacion h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.texto-presentacion p{
+    padding-left: 10px;
+    color: var(--colorparrafos);
+    font-size: 16px;
+}
+
+
+.harley{
+    left: 630px;
+}
+
+.batman2{
+   left: 1080px;
+}
+
+button{
+  background-color: var(--colorprincipal);
+  position: relative;
+  top: 450px;
+  left: 80px;
+  color: white;
+  height: 48.52px;
+  width: 128.78px;
+  border: none;
+}
+
+footer{
+    background-color: var(--colorprincipal);
+    color: white;
+    position: relative;
+    top: 500px;
+}
