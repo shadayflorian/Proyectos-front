@@ -15,6 +15,7 @@ header{
     height: 38px;
 }
 
+/*Elementos del header*/
 .text-header p{
     margin: 0;
     padding: 10px 20px;
@@ -28,49 +29,67 @@ header{
     padding: 30px;
 }
 
+/*estilos al main*/
 main{
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    top: 200px;
+    height: 550px;
+    margin-left: 50px;
 }
 
+/*estilos a las secciones de cada superheroe*/
+.batman{ /*nombre de la primera seccion*/
+    height: 180px;
+    margin-left: 100px;
+    margin-right: 90px;
+    width: 300px;
+}
 
-.batman{
-    height: 193px;
-    margin-left: 50px;
+.contenido{ /*contiene la img de perfil, nombre del super heore y texto descriptivo*/
+    background-color: var(--color-fondo-tarjetas);
+    position: relative;
+    top: 100px;
+    height: 390px;
+    box-shadow: 0 8px 5px #666;
+    
 }
 
 .corazon{
   position: relative;
-  top: 170px;
+  top: 15px;
   left: 10px;
   z-index: 7;
 }
 
-.fondo{
+.fondo{ /*fondo de las tarjetas de super heroes*/
     width: 300px;
     height: 193px;
     position: absolute;
-    top: 200px;
+    top: 5px;
     z-index: 10px;
 }
 
-
+/*estilos de fotos*/
 .foto-perfil{
     position: absolute;
-    top: 340px;
-    left: 200px;
+    top: -50px;
+    left: 90px;
 }
 
 .foto-perfil img{
     border-radius: 50%;
 }
 
+/*estilos de los textos*/
 .texto-presentacion{
     position: relative;
-    top: 370px;
+    top: 100px;
     width: 300px;
     height: 113px;
     box-sizing: border-box;
+    
 }
 
 .texto-presentacion h2{
@@ -81,24 +100,30 @@ main{
 }
 
 .texto-presentacion p{
-    padding-left: 10px;
+    padding: 0px 20px;
     color: var(--colorparrafos);
     font-size: 16px;
 }
 
+/*seccion de harley*/
+.harley-section{
+   margin-right: 90px;
+}
 
 .harley{
-    left: 630px;
+    left: 90px;
 }
 
+/*seccion de batman2*/
 .batman2{
-   left: 1080px;
+   left: 90px;
 }
 
+/*botones de ver más*/
 button{
   background-color: var(--colorprincipal);
   position: relative;
-  top: 450px;
+  top: 200px;
   left: 80px;
   color: white;
   height: 48.52px;
@@ -106,11 +131,12 @@ button{
   border: none;
 }
 
+/*footer*/
 footer{
     background-color: var(--colorprincipal);
     color: white;
     position: relative;
-    top: 500px;
+    top: 900px;
     height: 51px;
 }
 
