@@ -1,0 +1,119 @@
+:root{
+    --color-nav: #222222;
+    --color-titulo: #FC200C;
+    --color-fuentes: #222222;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #E5E5E5;
+}
+header{
+    background-color: var(--color-nav);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 8px 5px rgb(163, 163, 163);
+}
+
+.logo{
+    margin: 10px 10px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.nav li{
+    padding-left: 50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+.apartado1{
+    background-image: url(../proyecto-pizza/sources/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 650px;
+    margin: 55px 40px;
+    border-radius: 5px;
+}
+
+.apartado1 h2{
+    text-align: center;
+    color: var(--color-titulo);
+    padding-top: 30px;
+}
+
+.apartado1 span{
+    color: white;
+}
+
+.podio-pizzas{
+    margin-top: 55px;
+    background-color: white;
+    height: 500px;
+    width: 620px;
+    position: relative;
+    right: 30px;
+    border-radius: 5px;
+}
+.podio-pizzas h2{
+    color: var(--color-titulo);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.clases-pizzas{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.top5 h3{
+   margin-left: 100px;
+   margin-top: 90px;
+}
+.clases-pizzas ul {
+    margin-left: 20px;
+}
+
+.clases-pizzas li{
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 150px;
+    background-color: var(--color-nav);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 li{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.logo2{
+    position: relative;
+    right: 50px;
+    padding-top: 30px;
+}
