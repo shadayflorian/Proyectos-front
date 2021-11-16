@@ -1,0 +1,330 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0px;
+}
+
+/* navegacion principal que contiene el idioma y la moneda*/
+.nav-1{
+    background-color: #222222;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+   padding: 0 60px 0 50px;
+}
+
+.idioma select{
+  background-color: #222222;
+  color: white;
+  border: none;
+}
+
+/*Navegacion principal categorias*/
+
+nav{
+    box-sizing: border-box;
+    background-color:  #F0A83E;
+    height: 62px;
+}
+
+.logo{
+  position: relative;
+  top: 20px;
+  padding-left: 40px;
+}
+
+.img-nav{ /*logo de patita que acompaña a las opciones del menu*/
+    position: relative;
+    right: 3px;
+    top: 3px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 800px;
+    position: relative;
+    bottom: 20px;
+}
+
+nav li{
+    padding-top: 15px;
+}
+
+.categorias{
+    padding-left: 65px;
+}
+
+/*Fondo principal*/
+.fondo{
+    background-image: url(sources/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -70px;
+    height: 409px;
+    
+}
+
+/*Frases del fondo */
+
+.frases{
+  color: #3C2313;
+}
+.frase1{
+  box-sizing: border-box;
+  margin: 0;
+  width: 400px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  margin-left: 900px;
+  top: 160px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.frase2{
+    position: relative;
+    padding-left: 1000px;
+    top: 170px;
+    right: 10px;
+    font-size: 16px;
+}
+
+/*boton del fondo principal*/
+.boton1 {
+    background-color: #F0A83E;
+    text-transform: uppercase;
+    text-align: center;
+    width: 141px;
+    height: 49px;
+    border: 0;
+    position: relative;
+    left: 1030px;
+    top: 180px;
+}
+
+/*Seccion productos destacados*/
+.logo-productos{
+    margin-left: 630px;
+    margin-top: 50px;
+}
+
+.productos-destacados h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    color: #3C2313;
+}
+
+.categorias2 {
+   display: flex;
+   margin-left: 470px;
+   
+}
+
+.categorias2 li{
+    list-style: none;
+    padding-right: 20px;
+    color: #666666;
+}
+
+.categorias2 a{
+    color: #666666;
+}
+
+/*Productos*/
+.productos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.productos section{
+    background-color: rgb(250, 246, 241);
+}
+.nombre-producto{
+    color: #3C2313;
+    font-weight: bold;
+    text-align: center;
+}
+
+.precio{
+    text-align: center;
+    font-weight: bold;
+    color: #F0A83E;
+}
+
+/*seccion de contacto*/
+#contacto h3{
+    color: #3C2313;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#contacto input{
+    width: 430px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    display: flex;
+    margin-left: 455px;
+    margin-bottom: 10px;   
+}
+
+#contacto ::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+
+/*botones de la seccion de contacto*/
+
+.botones-form button{
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+}
+.boton2{
+    background-color: #8a8787;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+.boton3{
+    background-color: #F0A83E;
+    margin-left: 18px;
+}
+
+/*footer*/
+/*primera parte del footer*/
+.suscripcion{
+    background-color: #F0A83E;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.suscripcion-logo img, p{
+   padding-left: 10px;
+   font-weight: bold;
+} 
+
+.suscripcion-logo, .suscripcion-correo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+
+/*form de correo footer*/
+.suscripcion-correo input{
+    height: 40px;
+    width: 271px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;
+}
+
+/*boton suscribirme*/
+.suscripcion-correo button{
+    background-color: #3C2313;
+    color: white;
+    width: 100px;
+    height: 34px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+/*informacion de la tienda*/
+.informacion-footer{
+    height: 350px;
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    left: 40px;
+    bottom: 70px;
+}
+
+.info-text h3{
+    font-size: 20px;
+}
+
+.info-text p{
+    position: relative;
+    top: 30px;
+    right: 85px;
+    color: #8A8787;
+    font-size: 13px;
+}
+
+.informacion img{
+    height: 80px;
+    padding-left: 30px;
+}
+
+.correo{
+    padding-left: 80px;
+}
+
+.correo-info p{
+    position: relative;
+    right: 175px;
+}
+
+.informacion-footer h3, p{
+    margin: 0;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 70px;
+}
+
+/*footer derechos reservados*/
+.ultimo-footer{
+    background-color: #222222;
+    color: white;
+    height:20px;
+    font-size: 13px;
+    padding-top: 3px;
+}
